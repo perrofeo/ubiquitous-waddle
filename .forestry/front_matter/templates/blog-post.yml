@@ -10,5 +10,3 @@ fields:
   label: date
   config:
     export_format: YYYY-MM-DD
-pages:
-- src/site/blog/test1.md
