@@ -12,5 +12,3 @@ fields:
     export_format: YYYY-MM-DD
     date_format: DD/MM/YYYY
   default: now
-pages:
-- src/site/blog/test2.md
