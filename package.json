@@ -9,7 +9,7 @@
     "url": "https://github.com/philhawksworth/eleventail"
   },
   "scripts": {
-    "forestry:preview": "npm-run-all --parallel watch:css watch:html",
+    "forestry:preview": "eleventy --serve",
     "build": "npm-run-all build:css build:html",
     "build:css": "postcss src/site/_includes/css/tailwind.css -o src/site/css/styles.css",
     "build:html": "eleventy",
